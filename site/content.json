@@ -1,79 +1,249 @@
 {
   "$schema": "./content.schema.json",
   "language": "en",
-  "name": "Ada Example",
-  "headline": "Frontend developer who likes fast, accessible web pages",
+  "name": "Alfredo Morresi",
+  "headline": "Leading the Google Developer Experts program (GDE) @ Google | DevRel | Servant Leader | Community Manager | Public Speaker | AR/VR/XR",
   "photo": {
-    "src": "assets/avatar.svg",
-    "alt": "Ada Example's avatar: a simple drawing of a head and shoulders in two shades of grey"
+    "src": "assets/photo.webp",
+    "alt": "Alfredo Morresi speaking on stage in a yellow GDG t-shirt"
   },
-  "pitch": "I build small, fast websites that everyone can use, and I explain every choice in plain words.",
+  "pitch": "Working at the intersection of community, technology, leadership and fun to help people get things done and grow.",
   "highlights": [
-    { "text": "Every page I look after scores 100 for accessibility in Lighthouse" },
-    { "text": "Five years of teaching maths: I make technical choices easy to follow" },
-    { "text": "Two open-source projects on GitHub", "url": "https://github.com/octocat" }
+    { "text": "14+ years leading global developer community programs and operations at Google" },
+    { "text": "Founded Italian Community Managers (ICM Summit) with 8 editions and 700+ attendees", "url": "https://italiancommunitymanagers.it" },
+    { "text": "Co-founded WhyMCA, the first Italian mobile developer conference with 700+ attendees" }
   ],
   "availability": {
-    "text": "Open to junior frontend roles from January 2027.",
+    "text": "Always exploring life and its possibilities",
     "actionLabel": "Write to me",
-    "actionUrl": "mailto:ada@example.com"
+    "actionUrl": "mailto:info@rainbowbreeze.it"
   },
-  "location": { "city": "Milan", "country": "Italy", "timeZone": "Europe/Rome" },
+  "location": {
+    "city": "Pavia",
+    "country": "Italy",
+    "timeZone": "Europe/Rome"
+  },
   "languages": [
-    { "name": "English", "level": "native" },
-    { "name": "Italian", "level": "B2" }
+    { "name": "Italian", "level": "native" },
+    { "name": "English", "level": "C1" }
   ],
   "bio": [
-    "I build small, fast websites and the tools around them. Before I wrote code, I taught maths, so I still enjoy explaining things simply.",
-    "This is a sample portfolio of a fictional person. Replace it with your own story."
+    "I love helping people to get things done, working at the intersection of community, technology, leadership and fun. Community builder and developer by passion, Developer Relations by profession.",
+    "At Google, I lead the global Google Developer Experts (GDE) program, after leading Dev Community Operations & Data and dev community programs across Europe. Before joining Google, I was an Android developer and systems administrator.",
+    "I believe in the learn-build-share loop: organizing conferences like ICM Summit and WhyMCA, speaking at international conferences, mentoring, and blogging at rainbowbreeze.it."
   ],
   "projects": [
     {
-      "title": "Tide Tables",
-      "description": "A tiny web app that shows today's tides for a chosen harbour, built with plain HTML, CSS and JavaScript.",
-      "github": "https://github.com/octocat/Hello-World"
+      "title": "Hermes Agent Workshop",
+      "description": "Hands-on workshop on installing, configuring, and using personal AI agents with Hermes and open-weight models.",
+      "github": "https://github.com/rainbowbreeze/talks-and-demoes/tree/main/2026-hermes_workshop"
     },
     {
-      "title": "Reading Log",
-      "description": "A static site that lists the books I read, generated from one JSON file.",
-      "github": "https://github.com/octocat/Spoon-Knife",
-      "url": "https://octocat.github.io/Spoon-Knife/"
+      "title": "OpenClaw and the Agentic OS",
+      "description": "Architecture and setup for running personal AI agents connected to messaging workflows.",
+      "github": "https://github.com/rainbowbreeze/talks-and-demoes/tree/main/2026-openclaw"
+    },
+    {
+      "title": "AI Minions Design",
+      "description": "System design and workflow patterns for multi-agent systems and agentic coordination.",
+      "github": "https://github.com/rainbowbreeze/talks-and-demoes/tree/main/2026-ai-minions-design"
+    },
+    {
+      "title": "Ollama + Open WebUI LLM Workshop",
+      "description": "Hands-on workshop on running local LLMs, documents RAG, web search, MCP tools, and agent creation.",
+      "github": "https://github.com/rainbowbreeze/talks-and-demoes/tree/main/2025-llm_workshop"
+    },
+    {
+      "title": "Bringing Fictional Characters to Life with Open Source LLMs",
+      "description": "Building custom AI agents with distinct knowledge, personality, and voice cloning using local models and Docker.",
+      "github": "https://github.com/rainbowbreeze/talks-and-demoes/tree/main/2024-llm-custom-chat-agent"
+    },
+    {
+      "title": "AI Tools for Effortless Event Planning",
+      "description": "Practical workflows using LLMs to plan, execute, and analyze developer community events.",
+      "github": "https://github.com/rainbowbreeze/talks-and-demoes/tree/main/2024-ai_for_community_events"
+    },
+    {
+      "title": "Home Assistant Sessions & Workshops",
+      "description": "Introduction, practical automations, and setups for local home automation.",
+      "github": "https://github.com/rainbowbreeze/talks-and-demoes/tree/main/2024-home_assistant_session"
+    },
+    {
+      "title": "AI Press Review Agent",
+      "description": "A service that monitors YouTube channels for new videos, uses Gemini to create summaries from transcriptions, and sends updates via Telegram.",
+      "github": "https://github.com/rainbowbreeze/ai_press_review_agent"
     }
   ],
   "links": [
-    { "label": "GitHub", "url": "https://github.com/octocat" },
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/ada-example" },
-    { "label": "Email", "url": "mailto:ada@example.com" }
+    { "label": "Email", "url": "mailto:info@rainbowbreeze.it" },
+    { "label": "Blog", "url": "https://rainbowbreeze.it" },
+    { "label": "GitHub", "url": "https://github.com/rainbowbreeze" },
+    { "label": "LinkedIn", "url": "https://linkedin.com/in/alfredomorresi" }
   ],
   "cv": {
     "experience": [
       {
-        "role": "Junior Frontend Developer",
-        "organization": "Example Studio",
-        "start": "2024",
+        "role": "Global Lead - Google Developer Experts (GDE)",
+        "organization": "Google",
+        "start": "2024-11",
         "end": "present",
-        "summary": "Build and maintain marketing sites; brought every page to a Lighthouse accessibility score of 100."
+        "summary": "Leading the global network of highly skilled and influential technology leaders recognized by Google."
       },
       {
-        "role": "Maths Teacher",
-        "organization": "Example Secondary School",
-        "start": "2019",
-        "end": "2024",
-        "summary": "Taught maths to students aged 11 to 16 and ran the after-school coding club."
+        "role": "Community Operations and Data Lead",
+        "organization": "Google",
+        "start": "2020-11",
+        "end": "2024-11",
+        "summary": "Led the global team in charge of developer community operations, infrastructure, and data across 3000+ chapters worldwide."
+      },
+      {
+        "role": "Senior Community Manager and Community Team Lead",
+        "organization": "Google",
+        "start": "2012-07",
+        "end": "2020-11",
+        "summary": "Established Google Developer Relations in Italy and scaled community programs across Europe."
+      },
+      {
+        "role": "Co-Founder",
+        "organization": "Italian Community Managers",
+        "start": "2016-02",
+        "end": "present",
+        "summary": "Founded Italy's premier conference and community for community managers, organizing 8 editions for 700+ people."
+      },
+      {
+        "role": "CMX Connect Host",
+        "organization": "CMX Media",
+        "start": "2019-10",
+        "end": "2022-10",
+        "summary": "Event and community leader for the Milan chapter of community builders."
+      },
+      {
+        "role": "Co-Founder",
+        "organization": "WhyMCA Mobile Developer Conference",
+        "start": "2010-01",
+        "end": "2012-06",
+        "summary": "Co-founded Italy's first mobile developer conference and organized nation-wide mobile hackathons."
+      },
+      {
+        "role": "Android and Java Developer",
+        "organization": "Funambol",
+        "start": "2009-11",
+        "end": "2012-06",
+        "summary": "Developed Android applications and sync software in agile teams."
       }
     ],
     "education": [
       {
-        "title": "Web Development Bootcamp",
-        "organization": "Example Academy",
-        "year": "2023"
+        "title": "Communication Science",
+        "organization": "Università degli Studi di Macerata",
+        "year": "2008"
       },
       {
-        "title": "BSc Mathematics",
-        "organization": "Example University",
-        "year": "2018"
+        "title": "Diploma in Informatics",
+        "organization": "Istituto Tecnico Industriale",
+        "year": "1997"
       }
     ],
-    "skills": ["HTML", "CSS", "JavaScript", "Accessibility", "Git"]
-  }
+    "skills": [
+      "Developer Relations",
+      "Community Management",
+      "Team Leadership",
+      "Public Speaking",
+      "Agentic AI",
+      "Open-Source Software",
+      "AR/VR/XR",
+      "Problem Solving"
+    ]
+  },
+  "events": [
+    {
+      "name": "DevMarche Confindustria",
+      "date": "2026-07-14",
+      "city": "Ancona",
+      "role": "speaker",
+      "sessions": [
+        {
+          "type": "workshop",
+          "title": "Hermes: configurazione, uso avanzato e modelli open-weight"
+        }
+      ]
+    },
+    {
+      "name": "London Community Week",
+      "date": "2026-07-07",
+      "city": "London",
+      "role": "speaker",
+      "sessions": [
+        {
+          "type": "talk",
+          "title": "Building and Leading a Developer Community Operations Team at Scale"
+        }
+      ]
+    },
+    {
+      "name": "SicuraNext Seemposium 2026",
+      "date": "2026-07",
+      "city": "Turin",
+      "role": "speaker",
+      "sessions": [
+        {
+          "type": "panel",
+          "title": "Deep dive sull'agentic AI"
+        }
+      ]
+    },
+    {
+      "name": "comPVter @ Ctrl+Alt Museum",
+      "date": "2026-04",
+      "city": "Pavia",
+      "role": "speaker",
+      "sessions": [
+        {
+          "type": "talk",
+          "title": "OpenClaw e agenti personali"
+        }
+      ]
+    },
+    {
+      "name": "DevFest Roma Città",
+      "date": "2026-01",
+      "city": "Rome",
+      "role": "speaker",
+      "sessions": [
+        {
+          "type": "talk",
+          "title": "Bringing Fictional Characters to Life with Open Source LLMs"
+        }
+      ]
+    },
+    {
+      "name": "AI Italy",
+      "date": "2025-10",
+      "city": "Milan",
+      "role": "speaker",
+      "sessions": [
+        {
+          "type": "talk",
+          "title": "M8 - RAG ed Open WebUI"
+        }
+      ]
+    },
+    {
+      "name": "ICM Summit",
+      "date": "2024-10",
+      "city": "Milan",
+      "role": "organizer"
+    },
+    {
+      "name": "Community Rebellion",
+      "date": "2023-06",
+      "role": "speaker",
+      "sessions": [
+        {
+          "type": "talk",
+          "title": "Leadership Lessons From A Team of Community Builders"
+        }
+      ]
+    }
+  ]
 }
